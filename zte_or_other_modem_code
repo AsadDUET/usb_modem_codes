@@ -1,0 +1,9 @@
+# send AT command to modem
+
+## follow the link 
+https://hristoborisov.com/index.php/projects/turning-the-raspberry-pi-into-a-sms-center-using-python/
+
+## Summary:
+1. on debian Linux run: "sudo apt-get install cu" to install cu
+2. connect to the modem by : "cu -l /dev/ttyUSBX" x is your device .
+3. if sussessful "connected" will be displayed.
